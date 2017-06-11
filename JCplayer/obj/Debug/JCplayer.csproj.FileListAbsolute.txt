@@ -1,0 +1,28 @@
+H:\roboczeNET\JCplayer\JCplayer\bin\Debug\JCplayer.exe.config
+H:\roboczeNET\JCplayer\JCplayer\bin\Debug\JCplayer.exe
+H:\roboczeNET\JCplayer\JCplayer\bin\Debug\JCplayer.pdb
+H:\roboczeNET\JCplayer\JCplayer\obj\Debug\JCplayer.csprojResolveAssemblyReference.cache
+H:\roboczeNET\JCplayer\JCplayer\obj\Debug\MainWindow.g.cs
+H:\roboczeNET\JCplayer\JCplayer\obj\Debug\App.g.cs
+H:\roboczeNET\JCplayer\JCplayer\obj\Debug\JCplayer_MarkupCompile.cache
+H:\roboczeNET\JCplayer\JCplayer\obj\Debug\JCplayer_MarkupCompile.lref
+H:\roboczeNET\JCplayer\JCplayer\obj\Debug\MainWindow.baml
+H:\roboczeNET\JCplayer\JCplayer\obj\Debug\JCplayer.g.resources
+H:\roboczeNET\JCplayer\JCplayer\obj\Debug\JCplayer.Properties.Resources.resources
+H:\roboczeNET\JCplayer\JCplayer\obj\Debug\JCplayer.csproj.GenerateResource.Cache
+H:\roboczeNET\JCplayer\JCplayer\obj\Debug\JCplayer.exe
+H:\roboczeNET\JCplayer\JCplayer\obj\Debug\JCplayer.pdb
+H:\SEMESTR_4\ŚROD_PROG_B .NET\PROJEKT\JCplayer\JCplayer\bin\Debug\JCplayer.exe.config
+H:\SEMESTR_4\ŚROD_PROG_B .NET\PROJEKT\JCplayer\JCplayer\obj\Debug\JCplayer.exe
+H:\SEMESTR_4\ŚROD_PROG_B .NET\PROJEKT\JCplayer\JCplayer\obj\Debug\JCplayer.pdb
+H:\SEMESTR_4\ŚROD_PROG_B .NET\PROJEKT\JCplayer\JCplayer\bin\Debug\JCplayer.exe
+H:\SEMESTR_4\ŚROD_PROG_B .NET\PROJEKT\JCplayer\JCplayer\bin\Debug\JCplayer.pdb
+H:\SEMESTR_4\ŚROD_PROG_B .NET\PROJEKT\JCplayer\JCplayer\obj\Debug\JCplayer.csprojResolveAssemblyReference.cache
+H:\SEMESTR_4\ŚROD_PROG_B .NET\PROJEKT\JCplayer\JCplayer\obj\Debug\MainWindow.g.cs
+H:\SEMESTR_4\ŚROD_PROG_B .NET\PROJEKT\JCplayer\JCplayer\obj\Debug\App.g.cs
+H:\SEMESTR_4\ŚROD_PROG_B .NET\PROJEKT\JCplayer\JCplayer\obj\Debug\JCplayer_MarkupCompile.cache
+H:\SEMESTR_4\ŚROD_PROG_B .NET\PROJEKT\JCplayer\JCplayer\obj\Debug\JCplayer_MarkupCompile.lref
+H:\SEMESTR_4\ŚROD_PROG_B .NET\PROJEKT\JCplayer\JCplayer\obj\Debug\MainWindow.baml
+H:\SEMESTR_4\ŚROD_PROG_B .NET\PROJEKT\JCplayer\JCplayer\obj\Debug\JCplayer.g.resources
+H:\SEMESTR_4\ŚROD_PROG_B .NET\PROJEKT\JCplayer\JCplayer\obj\Debug\JCplayer.Properties.Resources.resources
+H:\SEMESTR_4\ŚROD_PROG_B .NET\PROJEKT\JCplayer\JCplayer\obj\Debug\JCplayer.csproj.GenerateResource.Cache

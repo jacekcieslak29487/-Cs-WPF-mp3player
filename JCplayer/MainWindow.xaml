@@ -1,0 +1,108 @@
+﻿<Window x:Class="JCplayer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:JCplayer"
+        mc:Ignorable="d"
+        Title="JacekC Player" Height="435.813" Width="525" AllowDrop="True">
+
+    <Grid Margin="0,0,0,67"
+          MouseWheel="Grid_MouseWheel">
+
+        <!--Visualisation-->
+        <MediaElement 
+            Name="MyMediaElement"
+            LoadedBehavior="Manual"
+            HorizontalAlignment="Left" 
+            Height="39" 
+            VerticalAlignment="Top" 
+            Width="517" AllowDrop="True"/>
+
+        <!--Play/Pause-->
+        <ToggleButton 
+            Content="PLAY/PAUSE" 
+            HorizontalAlignment="Left" 
+            Margin="248,161,0,0" 
+            VerticalAlignment="Top" 
+            Width="100" 
+            Click="Play"/>
+
+        <!--StopMedia-->
+        <Button 
+            Name="Stop"
+            Content="STOP" 
+            HorizontalAlignment="Left" 
+            Margin="352,161,0,0" 
+            VerticalAlignment="Top" 
+            Width="75" 
+            Click="Stop_Button_Click"/>
+
+        <!--OpenFiles from HDD-->
+        <Button 
+            Name="Add"
+            Content="OPEN" 
+            HorizontalAlignment="Left" 
+            Margin="432,161,0,0" 
+            VerticalAlignment="Top" 
+            Width="75" Click="add_Click"/>
+
+        <!--SeekSlider-->
+        <Slider 
+            Name="SeekSlider"
+            
+            Thumb.DragCompleted="SeekSlider_DragCompleted"
+            HorizontalAlignment="Left" 
+            Margin="10,196,0,0" 
+            VerticalAlignment="Top" 
+            Width="497" 
+            ValueChanged="SeekSlider_ValueChanged"/>
+
+        <!--VolumeSlider-->
+        <Slider 
+            Name="VolSlider"
+            Value="{Binding ElementName=MyMediaElement, Path=Volume}"
+            HorizontalAlignment="Left" 
+            Margin="10,163,0,0" 
+            VerticalAlignment="Top" 
+            Width="75" 
+            RenderTransformOrigin="-0.339,-0.949" 
+            Minimum="0"
+            Maximum="1" 
+            LargeChange="0.1" 
+            ValueChanged="VolSlider_ValueChanged"/>
+        <TextBlock 
+            HorizontalAlignment="Left" 
+            Margin="85,163,0,0" 
+            TextWrapping="Wrap" 
+            Text="volume" 
+            VerticalAlignment="Top" 
+            Width="62"/>
+
+        <!--Song List-->
+        <ListBox 
+            Name="SongList"
+            HorizontalAlignment="Left" 
+            Height="177" Width="497"
+            Margin="10,219,0,-58" 
+            VerticalAlignment="Top" 
+            AllowDrop="True" 
+            IsSynchronizedWithCurrentItem="True">
+            <!--MouseDoubleClick="SongList_MouseDoubleClick"-->
+            
+        </ListBox>
+        
+        
+
+        <!--TimeElapsed-->
+        <TextBlock 
+            Name="Time"
+            HorizontalAlignment="Left" 
+            Margin="185,163,0,0" 
+            TextWrapping="Wrap" 
+            Text="00:00:00" 
+            VerticalAlignment="Top" 
+            RenderTransformOrigin="0.633,-0.188"/>
+
+    </Grid>
+</Window>
